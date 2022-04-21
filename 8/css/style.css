@@ -1036,8 +1036,6 @@
 
 .gallery__list-item-likes-icon {
   padding-right: 9px;
-  width: 23px;
-  height: 21px;
   fill: #c2c2c2;
 }
 
@@ -1125,7 +1123,7 @@
   }
 
   .gallery__list-item-likes-icon {
-    fill: #ffffff;
+    fill: currentColor;
   }
 }
 .video-presentation {
@@ -1227,10 +1225,12 @@
 .modal--success .modal__wrapper {
   padding-top: 39px;
 }
+
 .modal--success .modal__footer {
   background-color: #f2f2f2;
   padding: 20px;
 }
+
 .modal--success .modal__header-title,
 .modal--success .modal__text {
   padding-left: 37px;
@@ -1248,9 +1248,11 @@
   .modal--error {
     width: 400px;
   }
+
   .modal--error .modal__text {
     padding-bottom: 49px;
   }
+
   .modal--error .modal__wrapper {
     padding: 50px 47px 49px 46px;
   }
@@ -1258,12 +1260,15 @@
   .modal--success {
     width: 640px;
   }
+
   .modal--success .modal__wrapper {
     padding-top: 53px;
   }
+
   .modal--success .modal__footer {
     padding: 44px 91px;
   }
+
   .modal--success .modal__header-title,
 .modal--success .modal__text {
     padding-left: 97px;
